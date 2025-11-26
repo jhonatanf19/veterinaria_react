@@ -1,5 +1,10 @@
 import React from "react";
 import cambo from "../img/canbo-cachorro-cordero-razas-med-gran-768x768.jpg";
+import product1 from "../img/shampoo.jpg";
+import product2 from "../img/comidadeperro.jpg";
+import product3 from "../img/antirabica.jpg";
+import product4 from "../img/cordero.png"
+
 //importas las imagenes
 export default function Producto() {
   const productos = [
@@ -13,7 +18,25 @@ export default function Producto() {
       id: 2,
       nombre: "Alimento Premium",
       descripcion: "Nutrición balanceada para mascotas.",
-      //img igual q el arriba pones varios tony
+      img: product1,
+    },
+     {
+      id: 2,
+      nombre: "Alimento Premium",
+      descripcion: "Nutrición balanceada para mascotas.",
+      img: product2,
+    },
+     {
+      id: 2,
+      nombre: "Alimento Premium",
+      descripcion: "Nutrición balanceada para mascotas.",
+      img: product3
+    },
+     {
+      id: 2,
+      nombre: "Alimento Premium",
+      descripcion: "Nutrición balanceada para mascotas.",
+      img: product4
     },
   ];
 
